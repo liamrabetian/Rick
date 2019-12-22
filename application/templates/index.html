@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <title>{{ title }} - Microblog</title>
+<style>
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+</style>
+</head>
+<body>
+
+ <h2>Somthing ...</h2>
+
+<table>
+  <tr>
+    <th>id</th>
+    <th>username</th>
+    <th>etc</th>
+  </tr>
+  
+  {% for user in Users %}
+  <div><p style='border: 1px soild black;'> </b></p></div>
+  <tr>
+        <td>{{ user.id }}</td>
+        <td>{{ user.username }}</td>
+        <td>--</td>
+      </tr>
+
+  {% endfor %}
+</table>
+
+</body>
+</html>

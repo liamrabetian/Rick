@@ -1,3 +1,4 @@
+
 # Python defines two types of packages, regular packages and namespace packages. 
 # Regular packages are traditional packages as they existed in Python 3.2 and earlier. 
 # A regular package is typically implemented as a directory containing an __init__.py file. 
