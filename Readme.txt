@@ -1,0 +1,21 @@
+(PythonFlask) C:\PythonFlask\Scripts>pip list
+Package          Version
+---------------- -------
+alembic          1.3.2
+Click            7.0
+Flask            1.1.1
+Flask-Migrate    2.5.2
+Flask-SQLAlchemy 2.4.1
+itsdangerous     1.1.0
+Jinja2           2.10.3
+Mako             1.1.0
+MarkupSafe       1.1.1
+pip              19.3.1
+pyodbc           4.0.28
+python-dateutil  2.8.1
+python-editor    1.0.4
+setuptools       42.0.2
+six              1.13.0
+SQLAlchemy       1.3.12
+Werkzeug         0.16.0
+wheel            0.33.6
