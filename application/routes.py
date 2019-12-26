@@ -5,6 +5,10 @@ from flask_login import current_user, login_user,logout_user,login_required
 from werkzeug.urls import url_parse
 from application.forms import LoginForm
 
+@app.route('/edit_profile', methods=['GET', 'POST'])
+@login_required
+def edit_profile():
+    form = EditProfileForm(current_user.username)
 @app.route('/')
 @app.route('/index')
 @login_required
