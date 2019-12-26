@@ -21,7 +21,17 @@ tr:nth-child(even) {
 </style>
 </head>
 <body>
+  {% extends "base.html" %}
 
+  {% block content %}
+      <h1>Hi, {{ current_user.username }}!</h1>
+      {% for post in posts %}
+      <div><p>{{ post.author.username }} says: <b>{{ post.body }}</b></p></div>
+      {% endfor %}
+  {% endblock %}
+  
+  </html>
+  
  <h2>Somthing ...</h2>
 
 <table>
@@ -43,4 +53,4 @@ tr:nth-child(even) {
 </table>
 
 </body>
-</html>
+
